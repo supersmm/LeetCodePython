@@ -20,6 +20,6 @@ Note: All emails are in lowercase.
 SELECT
     Email
 FROM Person
-GROUP BY Email
-HAVING COUNT(*) > 1;
+GROUP BY Emai
+lHAVING COUNT(*) > 1;
 
