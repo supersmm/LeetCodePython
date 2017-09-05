@@ -19,8 +19,8 @@ For the sample data above, the result is:
 | name |
 +------+
 | Will |
-| Jane |
-| Bill |
+| Jane 
+|| Bill |
 | Zack |
 +------+
 */
