@@ -22,3 +22,6 @@ class Solution(object):
         if d.get('U', 0) == d.get('D', 0) and d.get('L', 0) == d.get('R', 0):
             return True
         return False
+
+def judgeCircle(self, moves):
+    return moves.count('L') == moves.count('R') and moves.count('U') == moves.count('D')
